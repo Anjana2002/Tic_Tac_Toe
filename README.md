@@ -1,7 +1,7 @@
 # Tic_Tac_Toe
 This README provides an overview and instructions for running a Tic Tac Toe game with a computer opponent that uses the Minimax algorithm.
 
-##Overview
+## Overview
 This project is a command-line implementation of Tic Tac Toe, where you can play either against a friend or against a computer opponent that uses the Minimax algorithm to ensure optimal play.
 
 ## Features
@@ -33,13 +33,13 @@ python Tic_Tac_Toe.py
 ```
 
 ## How to Play
-### Single-player mode
+1. Single-player mode
 In single-player mode, the computer (O) plays against the player (X). The player can choose to go first or second.
 
-### Multi-player mode
+2. Multi-player mode
 In multi-player mode, two players take turns. Player 1 is X, and Player 2 is O.
 
-### Board Positions
+3.  Board Positions
 The board positions are numbered 1 to 9 as follows:
 ```
 1 | 2 | 3  
@@ -48,9 +48,9 @@ The board positions are numbered 1 to 9 as follows:
 ```
 
 
-To place your mark on the board, enter the position number.
+4. To place your mark on the board, enter the position number.
 
-The game continues until there is a winner or the board is full (a draw).
+5. The game continues until there is a winner or the board is full (a draw).
 
 ## Minimax Algorithm
 The Minimax algorithm is used by the computer to determine its moves. Here's how it works:
@@ -84,3 +84,5 @@ def minmax(board, player):
         return 0
     return value
 
+```
+Enjoy playing Tic Tac Toe!
