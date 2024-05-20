@@ -33,14 +33,11 @@ python Tic_Tac_Toe.py
 ```
 
 ## How to Play
-1.
-In single-player mode, the computer (O) plays against the player (X). The player can choose to go first or second.
+1. In single-player mode, the computer (O) plays against the player (X). The player can choose to go first or second.
 
-2. 
-In multi-player mode, two players take turns. Player 1 is X, and Player 2 is O.
+2. In multi-player mode, two players take turns. Player 1 is X, and Player 2 is O.
 
-3.  
-The board positions are numbered 1 to 9 as follows:
+3.  The board positions are numbered 1 to 9 as follows:
 ```
 1 | 2 | 3  
 4 | 5 | 6  
