@@ -41,9 +41,11 @@ In multi-player mode, two players take turns. Player 1 is X, and Player 2 is O.
 
 ### Board Positions
 The board positions are numbered 1 to 9 as follows:
-1 | 2 | 3
-4 | 5 | 6
-7 | 8 | 9
+```
+1 | 2 | 3  
+4 | 5 | 6  
+7 | 8 | 9  
+```
 
 
 To place your mark on the board, enter the position number.
