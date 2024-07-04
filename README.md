@@ -39,11 +39,11 @@ How to Play
 In single-player mode, the computer (O) plays against the player (X). The player can choose to go first or second.
 In multi-player mode, two players take turns. Player 1 is X, and Player 2 is O.
 The board positions are numbered 1 to 9 as follows:
-
-Copy code
+```bash
 1 | 2 | 3  
 4 | 5 | 6  
-7 | 8 | 9  
+7 | 8 | 9
+ ```
 To place your mark on the board, enter the position number.
 
 The game continues until there is a winner or the board is full (a draw).
@@ -62,7 +62,7 @@ Example Code
 Here is a snippet of the Minimax function used in the game:
 
 python
-Copy code
+```bash
 def minmax(board, player):
     winner = analyseboard(board)
     if winner != 0:
@@ -80,4 +80,5 @@ def minmax(board, player):
     if pos == -1:
         return 0
     return value
+```
 Enjoy playing Tic Tac Toe!
